@@ -5,10 +5,21 @@ This repository contains the official data, code, and reproducibility instructio
 
 Authors: Dilala Tuoliu, Lijiao Zhang, Muyang Wang*, Hongchen Jiang*, Weikang Yang*
 
-##Data Availability
-The raw sequencing data generated in this study have been deposited in the Genome Sequence Archive (GSA) at the National Genomics Data Center (CNCB-NGDC).
-* **BioProject ID:** [PRJCAxxxxxx](Link_to_BioProject)
-* **GSA Accession:** [CRAxxxxxx](Link_to_GSA)
+## Data Availability
+The raw sequencing and metabolomics data generated in this study have been deposited in the National Genomics Data Center (CNCB-NGDC). Access them via the following links:
+
+* **Shotgun metagenome data:**
+  * BioProject: PRJCA047018
+  * GSA Accession: [CRA030655](https://ngdc.cncb.ac.cn/gsa/browse/CRA030655)
+* **16S rRNA amplicon sequencing data:**
+  * BioProject: PRJCA047075
+  * GSA Accession: [CRA048087](https://ngdc.cncb.ac.cn/gsa/browse/CRA048087)
+* **Dietary metabarcoding data:**
+  * BioProject: PRJCA070118
+  * GSA Accession: [CRA048084](https://ngdc.cncb.ac.cn/gsa/browse/CRA048084)
+* **Metabolomics datasets:**
+  * BioProject: PRJCA055923
+  * OMIX Accession: [OMIX014376](https://ngdc.cncb.ac.cn/omix/release/OMIX014376)
 
 ## Repository Structure & Reproducibility Guide
 To facilitate reproducibility, this repository is organized by Figures. You can navigate into the specific Figure folder to find the corresponding scripts or software instructions.
