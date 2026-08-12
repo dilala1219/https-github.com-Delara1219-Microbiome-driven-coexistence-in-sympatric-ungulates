@@ -24,14 +24,17 @@ The raw sequencing and metabolomics data generated in this study have been depos
 ## Repository Structure & Reproducibility Guide
 To facilitate reproducibility, this repository is organized by Figures. You can navigate into the specific Figure folder to find the corresponding scripts or software instructions.
 
-* `data/` : Contains the basic shared datasets for down-stream analysis.
-  * `metadata.tsv` : Sample grouping and metadata information.
-  * `16S_ASV_table.tsv` : Normalized ASV abundance table.
+*   `data/` : Contains the basic datasets used for downstream statistical analysis.
+    *   `metadata.csv` : Sample grouping, environmental factors, and basic metadata information.
+    *   `16S_ASV_taxonomy_table.csv` : ASV abundance and taxonomic classification table for the gut microbiome (16S rRNA amplicon).
+    *   `Diet_ASV_taxonomy_table.csv` : ASV abundance and taxonomic classification table for dietary metabarcoding.
+    *   `Metabolism.csv` : Processed metabolomics profiling data (abundance of identified metabolites).
+    *   `Metagenome_CAZyme.csv` : Abundance profile of Carbohydrate-Active enZymes (CAZymes) annotated from shotgun metagenomic data.
+    *   `Metagenome_KEGG.csv` : Abundance profile of KEGG orthologs or pathways annotated from shotgun metagenomic data.
 
-- /Fig1 # Venn diagram of microbial and diet distribution
-  - `venn_input.tsv`: The formatted input file used for ImageGP.
-  - `protocol.md`: Detailed parameters for ImageGP and post-processing steps in Adobe Illustrator.
-
+*   `/Fig X` : contains raw datasets and partial original photographs used for downstream statistical analysis.
+    *   `protocol.md` : Detailed parameters used in ImageGP (web tool) and post-processing steps.
+    *   *(Include specific plots or `.R` scripts if applicable here)*
 
 
 ## System Requirements & Dependencies
